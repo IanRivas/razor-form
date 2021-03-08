@@ -14,9 +14,10 @@ textarea,
    --color2: #22C629;
    --color3: #6A6B75;
 }
-input:focus{
+input:focus,button:focus{
    outline:none;
 }
+
 
 *{
    box-sizing: border-box; 
@@ -34,7 +35,7 @@ html{
    width: 38.5rem;
    height: 56rem;
    border-radius: 15px;
-   margin: 5rem auto;
+   margin: 15rem auto;
    display: flex;
    flex-wrap: wrap;
    flex-direction: column;

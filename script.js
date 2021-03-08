@@ -8,7 +8,7 @@ function buttonEntrarChange(){
     }
 }
 function buttonRegistrarChange(){
-    if(buttonEntrar.classList.contains('selected')){
+    if(buttonEntrar.classList.contains('selected')){ 
         buttonRegistrar.classList.add('selected');
         buttonEntrar.classList.remove('selected');
         labelNombre.style.display = "block";
@@ -18,8 +18,8 @@ function buttonRegistrarChange(){
     }
 }
 
-const buttonRegistrar= document.getElementById("br")
-const buttonEntrar= document.getElementById("be")
-const labelNombre= document.getElementById("name-box")
-const buttonPrincipal= document.getElementById("RandE")
+const buttonRegistrar= document.getElementById("br");
+const buttonEntrar= document.getElementById("be");
+const labelNombre= document.getElementById("name-box");
+const buttonPrincipal= document.getElementById("RandE");
 
