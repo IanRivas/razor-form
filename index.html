@@ -14,12 +14,12 @@
                 <img src="./image 2.png" alt="logo">
             </section>
             <section class="top">
-                <button>Registrarte</button>
-                <button>Entrar</button>
+                <button id="br" class="selected" onclick="buttonRegistrarChange()">Registrarte</button>
+                <button id="be" onclick="buttonEntrarChange()">Entrar</button>
             </section>
             <section class="bottom">
                 <form action="">
-                    <label for="nombre">
+                    <label for="nombre" id="name-box">
                         <span>Nombre</span>
                         <input type="text" id="nombre">
                     </label>
@@ -32,8 +32,7 @@
                         <input type="password" id="contraseña">
                     </label>
                     <label for="login">
-                        <span>Registrarte
-                        </span>
+                        <span id="RandE">Registrarte</span>
                         <input type="submit" id="login">
                     </label>
                 </form>

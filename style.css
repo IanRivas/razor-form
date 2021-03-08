@@ -56,6 +56,9 @@ html{
    background-color: var(--color1);
    color: white;
    border: none;
+   
+}
+.top .selected{
    border-bottom: 2.5px solid var(--color2);
 }
 .top button:hover{
@@ -130,3 +133,4 @@ html{
 .bottom .forgot:hover{
    cursor: pointer;
 }
+
