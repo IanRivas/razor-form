@@ -1,0 +1,132 @@
+@font-face{
+   font-family: roboto;
+   src: url(./Roboto/Roboto-Regular.ttf);
+}
+
+input,
+textarea,
+[contenteditable] {
+  caret-color:var(--color2);
+}
+
+:root{
+   --color1: #434254;
+   --color2: #22C629;
+   --color3: #6A6B75;
+}
+input:focus{
+   outline:none;
+}
+
+*{
+   box-sizing: border-box; 
+   margin: 0;
+   padding: 0;
+}
+
+html{
+     font-size:62.5%;
+     
+}
+
+.container{
+   font-family: roboto;
+   width: 38.5rem;
+   height: 56rem;
+   border-radius: 15px;
+   margin: 5rem auto;
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: column;
+   background-color: var(--color1);
+   overflow: hidden;
+   border: 3px solid #3A9C44;
+}
+.logo{
+   width: 16.8rem;
+   height: 4.5rem;
+   margin: 4.2rem auto 1rem auto;
+}
+
+.top button{
+   font-size: 1.8rem;
+   float: left;
+   width: 50%;
+   padding: 1rem 0;
+   background-color: var(--color1);
+   color: white;
+   border: none;
+   border-bottom: 2.5px solid var(--color2);
+}
+.top button:hover{
+   cursor: pointer;
+}
+.bottom label{
+   display: block;
+   margin: 3rem auto;
+   width: 31.8rem;
+   height: 5.8rem;
+   position: relative;
+   border: 1.5px solid var(--color2);
+   border-radius: 1rem;
+}
+
+.bottom label input{
+   background-color: var(--color1);
+   border:none;
+   width: 29rem;
+   height: 4rem;
+   margin: 1rem 0rem 0rem 1rem;
+   padding-left: 2.5rem;
+   color: white;
+   font-size: 1.8rem;
+}
+
+.bottom label span{
+   position: absolute;
+   padding: 0 1rem;
+   background-color: var(--color1);
+   color: var(--color2);
+   font-size: 1.8rem;
+   top: -1rem;
+   left: 3rem;
+}
+.bottom label .em{
+   left: 4rem;
+}
+.bottom label:last-child{
+   background-color: var(--color2);
+   margin-bottom: 0;
+   
+}
+.bottom label:last-child span{
+   color: white;
+   position: absolute;
+   top: 1.5rem;
+   left: calc(50% - 5rem);
+   background-color: transparent;
+}
+.bottom label:last-child input{
+   font-size: 0;
+   padding: 0;
+   margin: 0;
+   width: 31.3rem;
+   height: 5.8rem;
+   background-color: transparent;
+   
+}
+.bottom label:last-child input:hover, .bottom label:last-child span{
+   cursor: pointer;
+}
+.bottom .forgot{
+   margin: 1rem auto 0 auto;
+   width: 17rem;
+   display: flex;
+   color: var(--color3);
+   font-size: 1.4rem;
+   justify-content: center;
+   
+}
+.bottom .forgot:hover{
+   cursor: pointer;
+}
